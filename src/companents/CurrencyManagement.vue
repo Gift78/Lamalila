@@ -122,7 +122,7 @@ const currentComponent = ref('CurrencyManagement')
   <div class="w-full max-w-5xl border border-gray-200 p-2">
     <div v-for="quest in currencies" :key="quest.id">
       <div class="flex items-center">
-        <DeleteIcon class="text-red-500" @click="deleteCurrencies(quest.id)" />
+        <!-- <DeleteIcon class="text-red-500" @click="deleteCurrencies(quest.id)" /> -->
             
 
         <br class="font-semibold">Currency: {{ quest.type }}

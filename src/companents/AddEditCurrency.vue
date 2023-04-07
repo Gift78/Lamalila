@@ -21,7 +21,6 @@ onMounted(() => {
   }
 });
 
-const returnToManage = ref("currencyManage");
 const clear = () => {
   updateCurrency.value.type=""
   updateCurrency.value.rate=""
